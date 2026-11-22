@@ -1,0 +1,7 @@
+line-length = 100
+target-version = "py312"
+
+[lint]
+select = ["E", "F", "B"]
+# B008: FastAPI Depends() in defaults is idiomatic. E501: formatting is not enforced.
+ignore = ["B008", "E501"]

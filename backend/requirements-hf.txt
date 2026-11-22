@@ -1,0 +1,4 @@
+# Optional Hugging Face support: local embeddings and/or the cross-encoder reranker.
+# Pulls in PyTorch, so it is opt-in (docker build --build-arg INSTALL_HF=true).
+langchain-huggingface>=0.1
+sentence-transformers>=3.0
